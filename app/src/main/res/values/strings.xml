@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Melkis Sorveteria</string>
+
+    <string name="title_slide1">Bem-Vindo!</string>
+    <string name="description_slide1">Olá, seja bem-vindo ao Atendimento Ao Cidadão Sumaré. Esperamos que tire o máximo proveito do aplicativo.</string>
+
+    <string name="title_slide2">Facilidade</string>
+    <string name="description_slide2">Solicite serviços no seu bairro com muito mais praticidade e rapidez.</string>
+
+    <string name="title_slide4">Permissões</string>
+    <string name="description_slide4">Para que o aplicativo funcione corretamente, é necessário conceder algumas permissões.</string>
+</resources>
