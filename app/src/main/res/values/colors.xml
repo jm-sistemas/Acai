@@ -9,6 +9,6 @@
     <!--<color name="slide3">#b12515</color>-->
     <color name="slide4">#4377a4</color>
 
-    <color name="dot_active">#FFF</color>
+    <color name="dot_active">#7C4DFF</color>
     <color name="dot_inactive">#cccccc</color>
 </resources>

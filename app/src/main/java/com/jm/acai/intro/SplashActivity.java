@@ -1,4 +1,4 @@
-package com.jm.acai;
+package com.jm.acai.intro;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

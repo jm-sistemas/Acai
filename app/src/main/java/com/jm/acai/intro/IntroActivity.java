@@ -1,7 +1,6 @@
-package com.jm.acai;
+package com.jm.acai.intro;
 
 import android.Manifest;
-import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,7 +15,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.jm.acai.adapters.ViewPagerAdapter;
+import com.jm.acai.R;
+import com.jm.acai.adapters.IntroPagerAdapter;
 import com.jm.acai.utils.AutenticationUtils;
 
 public class IntroActivity extends AppCompatActivity implements ViewPager.OnPageChangeListener, View.OnClickListener,ActivityCompat.OnRequestPermissionsResultCallback {
@@ -45,7 +45,7 @@ public class IntroActivity extends AppCompatActivity implements ViewPager.OnPage
 
     private void startObjects() {
         viewPager = findViewById(R.id.view_pager);
-        dotsLayout = findViewById(R.id.layoutDots);
+        dotsLayout = findViewById(R.id.ll_dots);
 
         skipButton = findViewById(R.id.skipButton);
         skipButton.setOnClickListener(this);
@@ -59,8 +59,8 @@ public class IntroActivity extends AppCompatActivity implements ViewPager.OnPage
         }else
             screens = new int[]{R.layout.slide1,R.layout.slide2};
 
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(this,screens);
-        viewPager.setAdapter(viewPagerAdapter);
+        IntroPagerAdapter introPagerAdapter = new IntroPagerAdapter(this,screens);
+        viewPager.setAdapter(introPagerAdapter);
         viewPager.addOnPageChangeListener(this);
         addBottomDots(0);
     }

@@ -37,12 +37,14 @@ public class CustomGridAdapter extends BaseAdapter {
         iconList.add(R.drawable.ic_menu);
         iconList.add(R.drawable.ic_new_order);
         iconList.add(R.drawable.ic_my_orders);
+        iconList.add(R.drawable.ic_stores);
     }
 
     private void fillLabelList() {
         labelList.add("Cardápio");
-        labelList.add("Novo Pedido");
-        labelList.add("Meus Pedidos");
+        labelList.add("Novo\nPedido");
+        labelList.add("Meus\nPedidos");
+        labelList.add("Lojas");
     }
 
 
@@ -86,7 +88,7 @@ public class CustomGridAdapter extends BaseAdapter {
             TextView gridText = new TextView(context);
             gridText.setText(labelList.get(i));
             gridText.setTextColor(context.getResources().getColor(R.color.colorAccent));
-            gridText.setPadding(0,16,0,16);
+            gridText.setPadding(0,0,0,16);
             gridText.setTypeface(null,Typeface.BOLD);
             gridText.setGravity(Gravity.CENTER);
 

@@ -6,12 +6,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class ViewPagerAdapter extends PagerAdapter {
+public class IntroPagerAdapter extends PagerAdapter {
 
     private Context context;
     private int[] screens;
 
-    public ViewPagerAdapter(Context context, int[] screens) {
+    public IntroPagerAdapter(Context context, int[] screens) {
         this.context = context;
         this.screens = screens;
     }

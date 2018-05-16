@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
-import com.jm.acai.IntroActivity;
+import com.jm.acai.intro.IntroActivity;
 import com.jm.acai.MainActivity;
 
 public class AutenticationUtils{
