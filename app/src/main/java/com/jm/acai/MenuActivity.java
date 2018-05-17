@@ -23,12 +23,12 @@ public class MenuActivity extends AppCompatActivity implements ViewPager.OnPageC
     private ViewPager viewPager;
     private LinearLayout dotsLayout;
     private ImageView previousImageView, nextImageView;
-    String[] names = {"Açaí","Casquinha" ,"Milkshake", "Cocô à la carte"};
+    String[] names = {"Açaí","Casquinha" ,"Milkshake", " nome aqui "};
     String[] imagesUrl = {"http://www.hummsorvetes.com.br/wp-content/uploads/2016/09/humm-sorvetes-acai-no-copo.jpg",
             "http://www.sergel.com.br/images/delicias/casquinha-gd.png",
             "https://www.browneyedbaker.com/wp-content/uploads/2012/01/white-russian-milkshake-1-550.jpg",
-            "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSEy74y6cM8Meq_S_S-jDdr6kgnZ63DazkVyJv2VFMYDeyS53xHgNuHbabS"};
-    String[] prices = {"R$13,00","R$4,00","R$12,00","R$50,00"};
+            "url img"};
+    String[] prices = {"R$13,00","R$4,00","R$12,00","R$"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
